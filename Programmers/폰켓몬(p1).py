@@ -4,7 +4,7 @@ def solution(nums):
     print(unique)
     if len(nums)/2 >= unique:
         return unique
-     # 중복을 제거한 nums의 길이가 unique와 크거나 같으면 가질 수 있는 최대 종류는 pick과 같다.    
+     # 중복을 제거한 nums의 길이가 unique와 크거나 같으면 가질 수 있는 최대 종류는 unique 같다.    
     else:
         return len(nums)/2
 
